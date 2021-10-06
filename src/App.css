@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* box-sizing: border-box; */
 }
 
 .App-logo {
@@ -35,4 +36,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 100px;
+  border-radius: 10px;
+}
+.HomePage {
+  background-color: #638a99;
+  color: rgba(219, 255, 60, 0.753);
+  text-align: center;
+}
+
+.CardShape {
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 5px;
+  width: calc(25% - 5px);
+  height: calc(40% - 5px);
+
+  position: relative;
+  transform: scale(1);
+
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.CardShape:active {
+  transform: scale(0.97);
+  transition: transform 0.2s;
+}
+
+.CardsTable {
+  /* border: 1px solid; */
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  /* overflow: hidden; */
+  display: flex;
+  flex-wrap: wrap;
+  /* display: inline; */
+
+  perspective: 1000px;
+}
+
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  border-radius: 20px;
+  background: rgb(138, 53, 131);
+  backface-visibility: hidden;
+}
+.front-face {
+  transform: rotateY(180deg);
+}
+
+.CardShape.flip {
+  transform: rotateY(180deg);
 }
