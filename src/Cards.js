@@ -3,7 +3,7 @@ const cardData = [
     id: 1,
     key: 1,
     image:
-      "https://i.pinimg.com/originals/bb/38/01/bb3801ab1f0851849099089c042d93b2.jpg",
+      "https://d1rw89lz12ur5s.cloudfront.net/photo/tcgames/file/f8cc0870a94811e7bde743975704e979/20171004_141309.jpg",
     backImage:
       "https://i.pinimg.com/originals/a2/fa/1a/a2fa1a276610031453ceeb53ddb0294f.png",
   },
@@ -11,7 +11,7 @@ const cardData = [
     id: 2,
     key: 1,
     image:
-      "https://i.pinimg.com/originals/bb/38/01/bb3801ab1f0851849099089c042d93b2.jpg",
+      "https://d1rw89lz12ur5s.cloudfront.net/photo/tcgames/file/f8cc0870a94811e7bde743975704e979/20171004_141309.jpg",
     backImage:
       "https://i.pinimg.com/originals/a2/fa/1a/a2fa1a276610031453ceeb53ddb0294f.png",
   },
@@ -42,6 +42,20 @@ const cardData = [
     id: 6,
     key: 3,
     image: "https://i.ebayimg.com/images/g/LhQAAOSwfEJd9TC4/s-l300.jpg",
+    backImage:
+      "https://i.pinimg.com/originals/a2/fa/1a/a2fa1a276610031453ceeb53ddb0294f.png",
+  },
+  {
+    id: 7,
+    key: 4,
+    image: "https://product-images.tcgplayer.com/fit-in/400x558/102626.jpg",
+    backImage:
+      "https://i.pinimg.com/originals/a2/fa/1a/a2fa1a276610031453ceeb53ddb0294f.png",
+  },
+  {
+    id: 8,
+    key: 4,
+    image: "https://product-images.tcgplayer.com/fit-in/400x558/102626.jpg",
     backImage:
       "https://i.pinimg.com/originals/a2/fa/1a/a2fa1a276610031453ceeb53ddb0294f.png",
   },

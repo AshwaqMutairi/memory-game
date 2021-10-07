@@ -4,13 +4,15 @@ import { useState } from "react";
 import cards from "../Cards";
 
 const CardList = () => {
+  let checkingArray = [];
+
   const cardsArray = cards.map((element) => <Card card={element} />);
   const randomArray = shuffle(cardsArray);
 
   const cardPlay = document.querySelectorAll(".CardShape");
   cardPlay.forEach((card) => card.addEventListener("click", flipCard));
 
-  return <div className="card-list">{randomArray}</div>;
+  return <div className="CardsTable">{randomArray}</div>;
 };
 
 function flipCard() {
@@ -37,6 +39,14 @@ function shuffle(array) {
   }
 
   return array;
+}
+
+function sameCards(card1, card2) {
+  if (card1.image === card2.image) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 export default CardList;

@@ -38,13 +38,24 @@
   }
 }
 
+.bigsize {
+  padding: 30px;
+  font-size: 3em;
+  font-family: "Font Name", serif;
+}
+
 img {
   width: 100px;
   border-radius: 10px;
 }
 .HomePage {
-  background-color: #638a99;
-  color: rgba(219, 255, 60, 0.753);
+  /* background-image: url("https://mocah.org/uploads/posts/586648-Attack-on-Titan.jpg"); */
+  background-image: url("https://wallpaperaccess.com/full/5567868.jpg");
+
+  /* background-color: #638a99; */
+  color: rgb(32, 219, 172);
+
+  box-shadow: rgb(17, 58, 52) 0px 20px 30px -10px;
   text-align: center;
 }
 
@@ -52,9 +63,12 @@ img {
   object-fit: cover;
   border-radius: 20px;
   margin: 5px;
-  width: calc(25% - 5px);
-  height: calc(40% - 5px);
 
+  width: calc(20% - 5px);
+  height: calc(25% - 15px);
+
+  /*   width: calc(25% - 5px);
+  height: calc(40% - 5px); */
   position: relative;
   transform: scale(1);
 

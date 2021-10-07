@@ -6,7 +6,7 @@ import Home from "./components/Home";
 function App() {
   return (
     <div className="App" className="HomePage">
-      <h4>welcome to memory game</h4>
+      <h4 className="bigsize">welcome to memory game</h4>
       {/* <Home /> */}
       <CardList />
     </div>
